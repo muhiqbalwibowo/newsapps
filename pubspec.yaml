@@ -63,5 +63,5 @@ flutter:
         - asset: assets/fonts/Outfit/Outfit-Regular.ttf
     - family: ShortBaby
       fonts:
-        - asset: assets/fonts/Outfit/ShortBaby.ttf
+        - asset: assets/fonts/ShortBaby/ShortBaby.ttf
   uses-material-design: true

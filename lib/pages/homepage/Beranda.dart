@@ -10,8 +10,42 @@ class BerandaPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "SOERAT KABAR",
+          "Sourat Kabar",
           style: Theme.of(context).textTheme.headlineLarge,
+        ),
+      ),
+      bottomNavigationBar: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+              padding: EdgeInsets.all(10),
+              width: 200,
+              height: 60,
+              decoration: BoxDecoration(
+                color: Theme.of(context).colorScheme.secondaryContainer,
+                borderRadius: BorderRadius.circular(100),
+              ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Icon(
+                    Icons.home,
+                    color: Theme.of(context).colorScheme.background,
+                  ),
+                  Icon(
+                    Icons.book,
+                    color: Theme.of(context).colorScheme.background,
+                  ),
+                  Icon(
+                    Icons.settings,
+                    color: Theme.of(context).colorScheme.background,
+                  ),
+                ],
+              ),
+            ),
+          ],
         ),
       ),
       body: Padding(

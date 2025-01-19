@@ -98,7 +98,7 @@ var darkTheme = ThemeData(
     background: darkBgColor,
     primary: darkPrimaryColor,
     onPrimaryContainer: darkFontColor,
-    secondaryContainer: darkLableColor,
+    secondaryContainer: darkLableColor2,
     onBackground: darkFontColor,
   ),
   textTheme: const TextTheme(
