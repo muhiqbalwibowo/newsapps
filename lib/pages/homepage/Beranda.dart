@@ -9,28 +9,6 @@ class BerandaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: Icon(Icons.person),
-          ),
-        ],
-        title: Row(
-          // mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.asset(
-              'assets/images/logo.png',
-              width: 25,
-            ),
-            Text(
-              "Infonesia",
-              style: Theme.of(context).textTheme.headlineLarge,
-            ),
-          ],
-        ),
-      ),
-      floatingActionButton: MyBotomNav(),
       body: Padding(
         padding: const EdgeInsets.all(10),
         child: SingleChildScrollView(
