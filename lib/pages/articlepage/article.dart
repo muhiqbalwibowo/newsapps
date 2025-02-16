@@ -13,10 +13,6 @@ class ArticlePage extends StatelessWidget {
           padding: const EdgeInsets.all(10),
           child: ListView(
             children: [
-              Text("Article Page"),
-              SizedBox(
-                height: 10,
-              ),
               Column(
                 children: [
                   SearchWidget(),

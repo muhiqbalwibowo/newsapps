@@ -32,7 +32,7 @@ class Newstile extends StatelessWidget {
                   children: [
                     CircleAvatar(
                       radius: 15,
-                      backgroundColor: Colors.orange,
+                      backgroundColor: const Color.fromARGB(255, 0, 110, 245),
                     ),
                     SizedBox(width: 10),
                     Text(

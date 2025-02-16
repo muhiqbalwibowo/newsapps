@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:news_apps/component/navbar.dart';
 import 'package:news_apps/pages/homepage/widget/newstile.dart';
 import 'package:news_apps/pages/homepage/widget/trendingcards.dart';
 

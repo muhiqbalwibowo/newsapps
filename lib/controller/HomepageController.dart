@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
-import '../component/navbar.dart';
+import 'package:news_apps/component/navigationbar.dart';
 import 'BottomNavController.dart';
 
 class Homepagecontroller extends StatelessWidget {
@@ -11,8 +10,8 @@ class Homepagecontroller extends StatelessWidget {
   Widget build(BuildContext context) {
     BottomNavController controller = Get.put(BottomNavController());
     return Scaffold(
-      floatingActionButton: MyBotomNav(),
-      body: Obx(() => controller.pages[controller.index.value]),
+      body: Obx(() => controller.pages[controller.selectedindex.value]),
+      bottomNavigationBar: Navigationbar(),
     );
   }
 }

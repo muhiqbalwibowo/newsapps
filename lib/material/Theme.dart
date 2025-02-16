@@ -25,7 +25,7 @@ var lightTheme = ThemeData(
     background: lightBgColor,
     primary: lightPrimaryColor,
     onPrimaryContainer: lightFontColor,
-    secondaryContainer: lightLableColor,
+    secondaryContainer: lightLableColor2,
     onBackground: lightDivColor,
   ),
   textTheme: const TextTheme(
