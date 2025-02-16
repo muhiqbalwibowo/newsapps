@@ -6,6 +6,7 @@ const lightFontColor = Color(0xff191828);
 const lightFontColor2 = Color(0xffFFFFFF);
 const lightDivColor = Color(0xffF5F6FA);
 const lightPrimaryColor = Color(0xff9E9E9E);
+const iconnavbar2 = Color(0xff9E9E9E);
 const lightLableColor = Color.fromARGB(255, 11, 11, 11);
 // Dark Theme Color
 const darkBgColor = Color(0xff191828);

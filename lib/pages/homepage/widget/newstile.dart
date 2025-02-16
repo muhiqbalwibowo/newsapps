@@ -9,7 +9,7 @@ class Newstile extends StatelessWidget {
       margin: EdgeInsets.only(bottom: 10),
       padding: EdgeInsets.all(10),
       decoration: BoxDecoration(
-        color: Colors.grey[700],
+        border: Border.all(color: Colors.grey.withOpacity(0.5)),
         borderRadius: BorderRadius.circular(20),
       ),
       child: Row(

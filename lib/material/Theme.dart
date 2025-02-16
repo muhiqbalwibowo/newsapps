@@ -30,15 +30,15 @@ var lightTheme = ThemeData(
   ),
   textTheme: const TextTheme(
     headlineLarge: TextStyle(
-      fontFamily: 'ShortBaby',
-      fontSize: 30,
+      fontFamily: 'Poppins',
+      fontSize: 24,
       color: lightFontColor,
-      fontWeight: FontWeight.w700,
+      fontWeight: FontWeight.w600,
     ),
     headlineMedium: TextStyle(
       fontFamily: 'Poppins',
       fontSize: 20,
-      color: lightFontColor2,
+      color: lightFontColor,
       fontWeight: FontWeight.w500,
     ),
     headlineSmall: TextStyle(
@@ -56,7 +56,7 @@ var lightTheme = ThemeData(
     bodyMedium: TextStyle(
       fontFamily: 'Poppins',
       fontSize: 15,
-      color: lightFontColor2,
+      color: lightFontColor,
       fontWeight: FontWeight.w900,
     ),
     bodySmall: TextStyle(
@@ -68,7 +68,7 @@ var lightTheme = ThemeData(
     labelSmall: TextStyle(
       fontFamily: 'Poppins',
       fontSize: 13,
-      color: lightFontColor2,
+      color: lightFontColor,
       fontWeight: FontWeight.w400,
     ),
   ),
